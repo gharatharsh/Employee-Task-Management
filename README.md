@@ -382,7 +382,7 @@ Add the following configuration:
 
 Created with ❤️ for educational and learning purposes.
 
-<div align="center">
+<div align="center" >
 
 [![GitHub](https://img.shields.io/badge/GitHub-gharatharsh-black?logo=github)](https://github.com/gharatharsh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsh%20Gharat-blue?logo=linkedin)](https://www.linkedin.com/in/harsh-gharat)
