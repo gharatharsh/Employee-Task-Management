@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Developer</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+       background: #b7dee8;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    form {
+        background: #fff;
+        padding: 25px 35px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        width: 350px;
+    }
+
+    fieldset {
+        border: none;
+        padding: 0;
+    }
+
+    legend {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-top: 12px;
+        font-weight: bold;
+        color: #444;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+    input[type="text"]:focus {
+        border-color: #007BFF;
+        box-shadow: 0 0 5px rgba(0,123,255,0.5);
+        outline: none;
+    }
+
+    input[type="submit"] {
+        margin-top: 20px;
+        width: 100%;
+        padding: 12px;
+        background: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background: #0056b3;
+        transform: scale(1.05);
+    }
+</style>
+</head>
+<body>
+    <form action="addDeveloper">
+        <fieldset>
+            <legend>Add Developer</legend>
+
+            <label>Developer Name:</label>
+            <input type="text" name="name">
+
+            <label>Developer Email:</label>
+            <input type="text" name="email">
+
+            <label>Developer Password:</label>
+            <input type="text" name="password">
+
+            <label>Developer Phone Number:</label>
+            <input type="text" name="phoneNumber">
+            
+            <label for="gender">Gender:</label>
+            <input type="text" name="gender" id="gender">
+
+            <label>Developer Salary:</label>
+            <input type="text" name="salary">
+
+            <input type="submit" value="Add Developer">
+        </fieldset>
+    </form>
+</body>
+</html>

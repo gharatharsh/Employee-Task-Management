@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register Manager</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #e6f7ff;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+    legend {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+   
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<form action="registerManager">
+    <fieldset>
+        <legend>Register Manager</legend>
+
+        <label for="name">Employee Name:</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">Employee Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="password">Employee Password:</label>
+        <input type="password" name="password" id="password">
+
+        <label for="phoneNumber">Employee Phone Number:</label>
+        <input type="text" name="phoneNumber" id="phoneNumber">
+
+        <label for="gender">Gender:</label>
+        <input type="text" name="gender" id="gender">
+
+        <label for="salary">Employee Salary:</label>
+        <input type="text" name="salary" id="salary">
+
+        <input type="submit" value="Register">
+    </fieldset>
+</form>
+
+</body>
+</html>
